@@ -92,7 +92,6 @@ Route::get('/ListesVehicules',[VehiculeController::class, "GetListes"])->name('L
 Route::get('/EditerFactures',[FacturesController::class, "EditerFactures"]);//recuperer champs hopital et chauffeur
 Route::post('/EditerFactures',[FacturesController::class, "CreateFacture"])->name('NewFacture');//creer facture
 
-// Route::get('/dashboard', [Controller::class, 'Compte'])->name('Compte');
 
 
 require __DIR__.'/auth.php';
